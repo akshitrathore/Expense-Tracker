@@ -5,7 +5,7 @@ app.use(express.json())
 const path = require('path')
 const userRoute = require('./routes/usersRoute')
 const transactionsRoute = require('./routes/transactionsRoute')
-const path = require('path')
+// const path = require('path')
 
 app.use('/api/users/' , userRoute)
 app.use('/api/transactions/' , transactionsRoute)
